@@ -1,0 +1,7 @@
+numpy 
+Flask
+pandas
+seaborn
+matplotlib
+setuptools
+-e .
