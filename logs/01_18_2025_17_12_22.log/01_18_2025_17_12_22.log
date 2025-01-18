@@ -1,0 +1,11 @@
+[ 2025-01-18 17:12:22,794 ] 160 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[ 2025-01-18 17:12:24,367 ] 26 root - INFO - Data Ingestion methods Starts
+[ 2025-01-18 17:12:24,527 ] 29 root - INFO - Dataset read as pandas Dataframe
+[ 2025-01-18 17:12:25,394 ] 33 root - INFO - Train test split
+[ 2025-01-18 17:12:26,500 ] 39 root - INFO - Ingestion of Data is completed
+[ 2025-01-18 17:12:26,876 ] 23 root - INFO - data transformation started
+[ 2025-01-18 17:12:27,277 ] 75 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2025-01-18 17:12:27,295 ] 87 root - INFO - Preprocessor pickle file saved
+[ 2025-01-18 17:12:27,305 ] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2025-01-18 17:12:27,812 ] 44 root - INFO - Model Report : {'LinearRegression': 0.9362906819996045, 'Lasso': 0.9362869814082755, 'Ridge': 0.9362900965420311, 'Elasticnet': 0.8544850758654409}
+[ 2025-01-18 17:12:27,813 ] 57 root - INFO - Best Model Found , Model Name : LinearRegression , R2 Score : 0.9362906819996045
